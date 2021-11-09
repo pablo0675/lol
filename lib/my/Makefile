@@ -11,8 +11,9 @@ SRC	=	my_putchar.c	\
 		my_put_nbr.c	\
 		my_revstr.c		\
 		my_strcpy.c		\
-		str_to_array	\
-		my_strcmp.c
+		my_str_to_array.c	\
+		my_strcmp.c			\
+		my_strdup.c
 
 OBJ	=	$(SRC:.c=.o)
 
