@@ -33,7 +33,7 @@ clean:
 	(cd src && rm *.o)
 	@echo -e "\n    All .o deleted        "
 fclean:
-	(cd src && rm $(NAME))
+	(rm $(NAME))
 	make fclean -C lib/my
 
 re: clean all

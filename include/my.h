@@ -29,7 +29,7 @@ char **my_str_to_array(char *str, char delimiter);
 int my_strcmp(char const *s1, char const *s2);
 char **my_open_read(char *str);
 int **my_algo(int **tab, int len, int widght);
-void check_biggest_square(int **tab, char **map);
+void check_biggest_square(int **tab, char **map, int len, int widght);
 char *my_strdup(char *str);
 
 #endif /* !MY_H_ */
